@@ -94,7 +94,6 @@ export default function ListDetailPage() {
         )}
       </div>
 
-      {/* --- Items --- */}
       <section className="section">
         <div className="pill">🧺 Items</div>
         {list.items.length === 0 && <div className="empty">No items yet.</div>}
@@ -114,7 +113,6 @@ export default function ListDetailPage() {
             </li>
           ))}
 
-          {/* Add item field looks like list row */}
           <li className="item-row add-row">
             <input
               className="add-input"
@@ -138,7 +136,6 @@ export default function ListDetailPage() {
         </div>
       </section>
 
-      {/* --- Members --- */}
       <section className="section">
         <div className="pill">👥 Members</div>
 
