@@ -65,7 +65,6 @@ export default function ListsPage() {
         ))}
       </div>
 
-      {/* stylově sjednocený přidávací řádek */}
       <div className="add-row" style={{ marginTop: "20px", display: "flex", gap: "8px", alignItems: "center", background: "#d1d5db", padding: "10px 12px", borderRadius: "10px", maxWidth: "400px" }}>
         <input
           type="text"
