@@ -34,7 +34,6 @@ const defaultData = {
   ],
 };
 
-// helpers
 function load() {
   const json = localStorage.getItem(KEY);
   return json ? JSON.parse(json) : defaultData;
@@ -44,7 +43,6 @@ function save(data) {
   localStorage.setItem(KEY, JSON.stringify(data));
 }
 
-// CRUD
 export const db = {
   getData() {
     return load();
